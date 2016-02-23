@@ -8,9 +8,9 @@ public class Player
 	
 	public Player()
 	{
-		for(int i = 0; i < cardFlipStatus.length; ++i)
+		for(int i = 0; i < this.cardFlipStatus.length; ++i)
 		{
-			cardFlipStatus[i] = false;
+			this.cardFlipStatus[i] = false;
 		}
 	}
 }
