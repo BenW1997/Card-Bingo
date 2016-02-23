@@ -10,7 +10,7 @@ public class Player
 	{
 		for(int i = 0; i < cardFlipStatus.length; ++i)
 		{
-			this.cardFlipStatus[i] = false;
+			cardFlipStatus[i] = false;
 		}
 	}
 }
